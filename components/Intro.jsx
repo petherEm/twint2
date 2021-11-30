@@ -5,7 +5,8 @@ import MobileEntry from './MobileEntry'
 
 const Container = styled.div`
     width: 100%;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     background-color: rgb(249, 222, 75);
     display: flex;
     flex-direction: column;
@@ -16,7 +17,8 @@ const Container = styled.div`
 const ScreenWrapper = styled.div`
     background-color: white;
     width: 470px;
-    height: 690px;
+    height: auto;
+    min-height: 690px;
     display: flex;
     flex-direction: column;
     border: none;
@@ -29,7 +31,7 @@ const ScreenWrapper = styled.div`
 `
 
 const Title = styled.h2`
-    margin-top: 60px;
+    margin-top: 100px;
 
 `
 
